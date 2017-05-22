@@ -16,11 +16,31 @@ html {
     line-height: 1.4;
 }
 
+.details {
+    background: #c9cfd8;
+    opacity: 0.85;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.main-info {
+    background: #c9cfd8;
+    opacity: 0.85;
+}
+.project-heading {
+    background: #c9cfd8;
+    opacity: 0.85;
+}
+
+.project {
+    background: #c9cfd8;
+    opacity: 0.85;
+}
+
 .navbar {
     padding-top: 0.5em;
     background: #42a1f4;
     width: 100%;
-    border-radius: 0px;
 }
 .date{
     text-align: right;
@@ -31,6 +51,7 @@ html {
     border:1px solid black;
     color: #000000;
     text-align: center;
+    min-width: 75px;
 }
 
 .info-box:hover {

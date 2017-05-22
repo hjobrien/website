@@ -24,7 +24,7 @@
         <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
         <![endif]-->
     </head>
-    <body>
+    <body style="background-image: url(img/temp-background.jpg); background-size: cover">
 
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -46,36 +46,39 @@
                     </div>
                 </div>
             </a>
-
         </div>
 
         <div class="container">
             <div class="row">
-                <h1 class="TitleName">Hank O'Brien</h1>
+                <h1 class="TitleName main-info">Hank O'Brien</h1>
             </div>
-            <div class="row">
+            <div class="row main-info">
                 <h2>About Me</h2>
                 <p>Hey, I'm Hank! I'm a second year student at UC Berkeley and I'm interested in machine learning, </p>
             </div>
-            <div class="row">
-                <h2>Projects</h2>
-                <div class="col-sm-6"><h3>Stella</h3></div>
-                <div class="col-sm-6">
-                    <h3 class="date">
-                        2017
-                    </h3>
-                </div>
+            <div class="row main-info">
+                <h2 style>Projects</h2>
             </div>
-            <div class="row">
-                <div class="col-sm-6">TODO: add icon</div>
-                <div class="col-sm-6"><p>I helped develop Stella as part of <a href="https://callaunchpad.org/#/" target="_blank">Launchpad</a> last semester.
-                    Stella is a chrome extension that adds a voice assistant to your browsing session.
-                    With it, users can do things like look up music, open and close tabs, and otherwise interact with their browser, all from across the room.
-                    This project uses a naive bayes algorithm to figure out how to act on user queries, and we plan on adding a recurrent neural network model to improve on the speach-to-text end.
+            <div class="details">
+                <div class="row">
+                    <div class="col-sm-6"><h3>Stella</h3></div>
+                    <div class="col-sm-6">
+                        <h3 class="date">
+                            2017
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">TODO: add icon</div>
+                    <div class="col-sm-6"><p>I helped develop Stella as part of <a href="https://callaunchpad.org/#/" target="_blank">Launchpad</a> last semester.
+                        Stella is a chrome extension that adds a voice assistant to your browsing session.
+                        With it, users can do things like look up music, open and close tabs, and otherwise interact with their browser, all from across the room.
+                        This project uses a naive bayes algorithm to figure out how to act on user queries, and we plan on adding a recurrent neural network model to improve on the speach-to-text end.
+                    </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row project-heading" style="margin-bottom: 0;">
                 <div class="col-sm-6"><h3>Quadris</h3></div>
                 <div class="col-sm-6">
                     <h3 class="date">
@@ -83,7 +86,7 @@
                     </h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row details">
                 <div class="col-sm-6">TODO: add video here</div>
                 <div class="col-sm-6"><p>This is a self-playing Tetris agent which learned to play through a genetic algorithm.
                     I built both the learning algorithm and the Tetris game as a final project in our AP computer science class.
@@ -93,8 +96,11 @@
                 </div>
             </div>
 
-
-            <h4>For more projects, check out my <a href="https://github.com/hjobrien" target="_blank">GitHub</a></h4>
+            <div class="row details">
+                <div class="col-sm-12">
+                    <h4>For more projects, check out my <a href="https://github.com/hjobrien" target="_blank">GitHub</a></h4>
+                </div>
+            </div>
 
             <div class="row">
                     <h2>Other</h2>
