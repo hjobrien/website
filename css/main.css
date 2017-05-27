@@ -44,6 +44,44 @@ html {
     background: #42a1f4;
     width: 100%;
 }
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+/*#banner {*/
+    /*width: 100%;*/
+    /*height: 273px;*/
+    /*background-color: gray;*/
+    /*overflow: hidden;*/
+/*}*/
+
+#nav_bar {
+    border: 0;
+    background-color: #42a1f4;;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 50px;
+    text-align: right;
+}
+
+.nav_links {
+    margin: 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-top: 4px;
+}
+/*.nav_links li a {*/
+    /*padding: 0 16px;*/
+    /*color: #3498db;*/
+    /*text-decoration: none;*/
+/*}*/
+
 .date{
     text-align: right;
 }
