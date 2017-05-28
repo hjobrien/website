@@ -56,9 +56,9 @@
             </ul>
         </nav>
 
-        <div class="container">
+        <div class="container" id="toggle">
             <div class="row">
-                <h1 class="TitleName main-info">Hank O'Brien</h1>
+                <h1 class="TitleName">Hank O'Brien</h1>
             </div>
             <div class="row main-info">
                 <h2>About Me</h2>
@@ -67,48 +67,56 @@
                 I love working on interesting projects, so if you're a developer with an cool side project, shoot me an email, I'd love to discuss it with you.</p>
             </div>
             <div class="row main-info">
-                <h2 style>Projects</h2>
+                <h2>Skills</h2>
             </div>
-            <div class="details">
-                <div class="row">
-                    <div class="col-sm-6"><h3>Stella</h3></div>
-                    <div class="col-sm-6">
-                        <h3 class="date">
-                            2017
-                        </h3>
+            <div class="row main-info">
+                <h2>Projects</h2>
+            </div>
+            <div class="animation-element slide-right">
+                <div class="details">
+                    <div class="row">
+                        <div class="col-sm-6"><h3>Stella</h3></div>
+                        <div class="col-sm-6">
+                            <h3 class="date">
+                                2017
+                            </h3>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6"><img src="img/stella-logo.png" alt="Stella Logo" height="150px" width="150px"></div>
-                    <div class="col-sm-6"><p>I helped develop Stella as part of <a href="https://callaunchpad.org/#/" target="_blank">Launchpad</a> last semester.
-                        Stella is a Chrome extension that adds a voice assistant to your browsing session.
-                        With it, users can do things like look up music, open and close tabs, and otherwise interact with their browser, all from across the room.
-                        This project uses a naive bayes algorithm to figure out how to act on user queries, and we plan on adding a recurrent neural network model to improve on the speech-to-text component in the near future.
+                    <div class="row">
+                        <div class="col-sm-6"><img src="img/stella-logo.png" alt="Stella Logo" height="150px" width="150px"></div>
+                        <div class="col-sm-6"><p>I helped develop Stella as part of <a href="https://callaunchpad.org/#/" target="_blank">Launchpad</a> last semester.
+                            Stella is a Chrome extension that adds a voice assistant to your browsing session.
+                            With it, users can do things like look up music, open and close tabs, and otherwise interact with their browser, all from across the room.
+                            This project uses a naive bayes algorithm to figure out how to act on user queries, and we plan on adding a recurrent neural network model to improve on the speech-to-text component in the near future.
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="details">
-                <div class="row">
-                    <div class="col-sm-6"><h3>Quadris</h3></div>
-                    <div class="col-sm-6">
-                        <h3 class="date">
-                            2016
-                        </h3>
+            <div class="animation-element slide-right">
+                <div class="details">
+                    <div class="row">
+                        <div class="col-sm-6"><h3>Quadris</h3></div>
+                        <div class="col-sm-6">
+                            <h3 class="date">
+                                2016
+                            </h3>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-7">
-                        <iframe width=450px, height=590px src="https://www.youtube.com/embed/HdH3w9qPyoA"></iframe>
-                    </div>
-                    <div class="col-sm-5"><p>This is a self-playing Tetris agent which learned to play through a genetic algorithm.
-                        I built both the learning algorithm and the Tetris game as a final project in our AP computer science class.
-                        I choose this project because I wanted to learn more about machine learning, so I thought it would be good to get real-world experience.
-                        Over about 15 epochs, our algorithm on average performed better than humans on the same input data, though the standard deviation of its
-                        performance was quite high.</p>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width=450px, height=590px src="https://www.youtube.com/embed/HdH3w9qPyoA"></iframe>
+                        </div>
+                        <div class="col-sm-5"><p>This is a self-playing Tetris agent which learned to play through a genetic algorithm.
+                            I built both the learning algorithm and the Tetris game as a final project in our AP computer science class.
+                            I choose this project because I wanted to learn more about machine learning, so I thought it would be good to get real-world experience.
+                            Over about 15 epochs, our algorithm on average performed better than humans on the same input data, though the standard deviation of its
+                            performance was quite high.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
             <div class="details">
                 <div class="row">
@@ -129,24 +137,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!--Credit to Stack Overflow user SoEzPZ for pinned navbar-->
-        <script>
-            $(document).ready(function() {
-
-                $(window).scroll(function () {
-                    //if you hard code, then use console
-                    //.log to determine when you want the
-                    //nav bar to stick.
-                    console.log($(window).scrollTop());
-                    if ($(window).scrollTop() > 0) {
-                        $('#nav_bar').addClass('navbar-fixed');
-                    }
-                    if ($(window).scrollTop() < 1) {
-                        $('#nav_bar').removeClass('navbar-fixed');
-                    }
-                });
-            });
-        </script>
+        <script src="js/animations.js"></script>
 
         <!--&lt;!&ndash; Google Analytics: change UA-XXXXX-X to be your site's ID. &ndash;&gt;-->
         <!--<script>-->
