@@ -9,6 +9,10 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+:root {
+    --slide-distance: 400px;
+    --slide-time: 500ms;
+}
 
 html {
     color: #222;
@@ -37,15 +41,15 @@ html {
 
 .animation-element.slide-right {
     opacity: 0;
-    -moz-transition: all 500ms linear;
-    -webkit-transition: all 500ms linear;
-    -o-transition: all 500ms linear;
-    transition: all 500ms linear;
-    -moz-transform: translate3d(200px, 0px, 0px);
-    -webkit-transform: translate3d(200px, 0px, 0px);
-    -o-transform: translate(200px, 0px);
-    -ms-transform: translate(200px, 0px);
-    transform: translate3d(200px, 0px, 0px);
+    -moz-transition: all var(--slide-time) linear;
+    -webkit-transition: all var(--slide-time) linear;
+    -o-transition: all var(--slide-time) linear;
+    transition: all var(--slide-time) linear;
+    -moz-transform: translate3d(var(--slide-distance), 0px, 0px);
+    -webkit-transform: translate3d(var(--slide-distance), 0px, 0px);
+    -o-transform: translate(var(--slide-distance), 0px);
+    -ms-transform: translate(var(--slide-distance), 0px);
+    transform: translate3d(var(--slide-distance), 0px, 0px);
 }
 
 .animation-element.slide-right.in-view {
@@ -78,20 +82,12 @@ html {
     width: 100%;
 }
 
-.navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-}
-
 #nav_bar {
-    border: 0;
     background-color: #42a1f4;;
-    border-radius: 0;
-    margin-bottom: 0;
     height: 40px;
     text-align: right;
+    position: fixed;
+    width: 100%;
 }
 
 .nav_links {
@@ -124,6 +120,7 @@ html {
     color: #456ab1;
     font-size: 7em;
     text-align: center;
+    margin-top: 1em;
 }
 /*
  * Remove text-shadow in selection highlight:

@@ -2,22 +2,6 @@
  * Created by Hank on 5/27/17.
  */
 
-// Credit to Stack Overflow user SoEzPZ for pinned navbar
-$(document).ready(function() {
-
-    $(window).scroll(function () {
-        //if you hard code, then use console
-        //.log to determine when you want the
-        //nav bar to stick.
-        // console.log($(window).scrollTop());
-        if ($(window).scrollTop() > 0) {
-            $('#nav_bar').addClass('navbar-fixed');
-        }
-        if ($(window).scrollTop() < 1) {
-            $('#nav_bar').removeClass('navbar-fixed');
-        }
-    });
-});
 
 var $animation_elements = $('.animation-element');
 var $window = $(window);
