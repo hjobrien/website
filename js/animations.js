@@ -26,8 +26,6 @@ function check_if_in_view() {
             (element_top_position <= window_bottom_position)) {
             $element.addClass('in-view');
             console.log('element in view')
-        } else {
-            $element.removeClass('in-view');
         }
     });
 }
