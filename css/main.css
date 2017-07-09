@@ -24,6 +24,13 @@ html {
     border: 1px solid black;
     /*min-width: 10em;*/
     min-height: 10em;
+    text-align: right;
+}
+
+.skill-title {
+    width: 100%;
+    text-align: right;
+    padding-right: 1em;
 }
 
 .vertical-view {
