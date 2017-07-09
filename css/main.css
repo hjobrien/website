@@ -12,12 +12,46 @@
 :root {
     --slide-distance: 400px;
     --slide-time: 300ms;
+    --box-side: 15em
 }
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+}
+.skill-box {
+    border: 1px solid black;
+    /*min-width: 10em;*/
+    min-height: 10em;
+}
+
+.vertical-view {
+    width: 100% !important;
+}
+
+#outer-box {
+    height: calc(3 * var(--box-side));
+    width: 100%;
+    /*max-width: calc(3 * var(--box-side));*/
+}
+
+#middle-box {
+    height: calc(2 * var(--box-side));
+    width: 67%;
+    /*min-width: 100%;*/
+    /*max-width: calc(2 * var(--box-side));*/
+}
+
+#inner-box {
+    height: var(--box-side);
+    width: 33%;
+    /*min-width: 100%;*/
+    /*max-width: var(--box-side);*/
+}
+
+#box-container {
+    width: 100%;
 }
 
 .details {
