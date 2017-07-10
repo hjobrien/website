@@ -20,47 +20,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-.skill-box {
-    border: 2px solid black;
-    min-height: 10em;
-    text-align: right;
-    position: absolute;
-}
-
-.skill-title {
-    width: 100%;
-    padding-right: 1em;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.vertical-view {
-    width: 95% !important;
-}
-
-#outer-box {
-    height: calc(3 * var(--box-side));
-    width: 100%;
-}
-
-#middle-box {
-    height: calc(2 * var(--box-side));
-    width: 67%;
-}
-
-#inner-box {
-    height: var(--box-side);
-    width: 33%;
-}
-
-#box-container {
-    height: calc(3 * var(--box-side));
-    width: 100%;
-    position: relative;
-}
 
 .details {
     text-align: left;
