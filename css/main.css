@@ -30,6 +30,9 @@ html {
 .skill-title {
     width: 100%;
     padding-right: 1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .vertical-view {
