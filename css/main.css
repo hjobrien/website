@@ -22,43 +22,38 @@ html {
 }
 .skill-box {
     border: 1px solid black;
-    /*min-width: 10em;*/
     min-height: 10em;
     text-align: right;
+    position: absolute;
 }
 
 .skill-title {
     width: 100%;
-    text-align: right;
     padding-right: 1em;
 }
 
 .vertical-view {
-    width: 100% !important;
+    width: 95% !important;
 }
 
 #outer-box {
     height: calc(3 * var(--box-side));
-    width: 100%;
-    /*max-width: calc(3 * var(--box-side));*/
+    width: 87%;
 }
 
 #middle-box {
     height: calc(2 * var(--box-side));
-    width: 67%;
-    /*min-width: 100%;*/
-    /*max-width: calc(2 * var(--box-side));*/
+    width: 58%;
 }
 
 #inner-box {
     height: var(--box-side);
-    width: 33%;
-    /*min-width: 100%;*/
-    /*max-width: var(--box-side);*/
+    width: 29%;
 }
 
 #box-container {
-    width: 100%;
+    height: calc(3 * var(--box-side));
+    width: calc(3 * var(--box-side));
 }
 
 .details {
