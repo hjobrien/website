@@ -43,22 +43,23 @@ html {
 
 #outer-box {
     height: calc(3 * var(--box-side));
-    width: 81em;
+    width: 100%;
 }
 
 #middle-box {
     height: calc(2 * var(--box-side));
-    width: 54em;
+    width: 67%;
 }
 
 #inner-box {
     height: var(--box-side);
-    width: 27em;
+    width: 33%;
 }
 
 #box-container {
     height: calc(3 * var(--box-side));
-    width: calc(3 * var(--box-side));
+    width: 100%;
+    position: relative;
 }
 
 .details {
