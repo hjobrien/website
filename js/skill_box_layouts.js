@@ -12,7 +12,7 @@ function change_box_layout() {
     $.each($skill_box, function () {
         var $element = $(this);
 
-        if (window_width < 450) {
+        if (window_width < 500) {
             $element.addClass('vertical-view');
         }
         else {
