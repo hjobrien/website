@@ -28,7 +28,9 @@
 }
 
 .vertical-view {
-    width: 95% !important;
+    width: 100% !important;
+    position: relative !important;
+    height: var(--box-side) !important;
 }
 
 #outer-box {
