@@ -23,6 +23,12 @@ html {
     margin-top: 15px;
 }
 
+.main-info {
+    background: #c9cfd8;
+    opacity: 0.85;
+    padding: 0 10px 10px;
+}
+
 .project-info {
     text-align: left;
     background: #c9cfd8;
@@ -33,11 +39,7 @@ html {
     position: relative;
 }
 
-.main-info {
-    background: #c9cfd8;
-    opacity: 0.85;
-    padding: 0 10px 10px;
-}
+
 .project-heading {
     background: #c9cfd8;
     opacity: 0.85;
@@ -46,12 +48,6 @@ html {
 .project {
     background: #c9cfd8;
     opacity: 0.85;
-}
-
-.navbar {
-    padding-top: 0.5em;
-    background: #42a1f4;
-    width: 100%;
 }
 
 #nav_bar {
@@ -72,12 +68,11 @@ html {
     margin-top: 4px;
 }
 
-.date{
+.project-year{
     text-align: right;
 }
 
 .info-box {
-    /*border:1px solid black;*/
     color: #000000;
     text-align: center;
     padding: 0.5rem;
