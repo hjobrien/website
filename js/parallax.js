@@ -1,5 +1,7 @@
 /**
  * Created by Hank on 7/13/17.
+ * based on:
+ * https://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
  */
 
 const parallax_factor = 10
